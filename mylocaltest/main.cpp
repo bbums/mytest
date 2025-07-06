@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+int a;
+
 int main() {
-	printf("My First Test\n");
+	a = 10;
+	printf("My First Test ==> %d\n", a);
 }
